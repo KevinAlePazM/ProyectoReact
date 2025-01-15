@@ -1,6 +1,12 @@
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import { useState } from 'react';
+
+export const method1 = () => {
+    console.log("hola");
+};
+
+export const method2 = () => {
+    console.log("hola");
+}
 
 const Default = () => {
   const [count, setCount] = useState(0)
