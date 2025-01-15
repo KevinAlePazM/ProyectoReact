@@ -1,7 +1,7 @@
 import viteLogo from "../../assets/vite.svg";
 import reactLogo from "../../assets/react.svg";
 
-const Logo = () => {
+const Logo = ({ redirectURL, logoImage }) => {
     return (
         <div>
             <a href="https://vite.dev" target="_blank">

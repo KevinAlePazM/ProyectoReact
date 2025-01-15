@@ -2,10 +2,10 @@ import githubLogo from "../../assets/github.svg";
 
 const Logo = () => {
     return (
-        <div>
-            <a href="https://github.com/dheeyi/desarrollo-frontend-react-2025" target="_blank">
+        <div><a href="https://github.com/KevinAlePazM/ProyectoReact" target="_blank">
                 <img src={githubLogo} className="logo" alt="Vite logo"/>
             </a>
+            
         </div>
     );
 };

@@ -1,13 +1,26 @@
-import Logo from '../components/Home/Logo.jsx'
+import OpenLink from '../components/Core/OpenLink.jsx';
 import Body from '../components/Home/Body.jsx'
 import Footer from '../components/Home/Footer.jsx'
-import GitHub from '../components/Home/GitHub.jsx'
+
+import viteLogo from "../assets/vite.svg";
+import reactLogo from "../assets/react.svg";
+import githubLogo from "../assets/github.svg";
 
 const Home = () => {
     return (
         <div>
-            <Logo/>
-            <GitHub/>
+            <OpenLink 
+                redirectURL="https://vite.dev"
+                logoImage={viteLogo}
+            />
+            <OpenLink
+                redirectURL="https://react.dev"
+                logoImage={reactLogo}
+            />
+            <OpenLink
+                redirectURL="https://github.com/dheeyi/desarrollo-frontend-react-2025"
+                logoImage={githubLogo}
+            />
             <Body/>
             <Footer/>
         </div>
